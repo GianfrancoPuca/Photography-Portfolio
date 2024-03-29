@@ -1,0 +1,22 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10vw;
+    background-color: whitesmoke;
+    padding: 10vw;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: thin;
+    border-radius: 5vw;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.grid-item img {
+    max-width: 100%;
+    max-height: 40%;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
