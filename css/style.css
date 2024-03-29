@@ -6,7 +6,7 @@
     padding: 10vw;
 }
 .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: burlywood;
     border: thin;
     border-radius: 5vw;
     padding: 20px;
@@ -14,8 +14,8 @@
     text-align: center;
 }
 .grid-item img {
-    max-width: 100%;
-    max-height: 40%;
+    max-width: 70%;
+    max-height: fit-content;
     display: block;
     margin: 0 auto;
     padding: 0;
