@@ -1,22 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&display=swap');
+    
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     grid-gap: 10vw;
     background-color: whitesmoke;
     padding: 10vw;
+    margin: 0;
 }
 .grid-item {
-    background-color: burlywood;
+    background-color: whitesmoke;
     border: thin;
     border-radius: 5vw;
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    
 }
 .grid-item img {
-    max-width: 70%;
+    max-width: 80%;
     max-height: fit-content;
     display: block;
     margin: 0 auto;
     padding: 0;
+}
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    background-image: url('../imgs/background.jpg');
+    background-size: cover;
+    background-position: center;
 }
