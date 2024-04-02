@@ -1,0 +1,70 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card:hover .description {
+    transform: translateY(0);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+}
+.footer .language-menu{
+    margin-right: auto;
+}
+.footer a {
+    margin-left: 20px;
+    text-decoration: none; 
+    color: bisque; 
+}
+
+.footer a:hover {
+    color: darkgray;
+}
+.language-menu {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.language-menu label {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline; 
+}
+.language-menu label:hover {
+    color: darkblue;
+}
+
+select#select-language option:checked {
+    font-weight: bold;
+}
+

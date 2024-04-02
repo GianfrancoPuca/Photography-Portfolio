@@ -25,11 +25,46 @@
     margin: 0 auto;
     padding: 0;
     border: 5% thin;
-    opacity: 0.8;
+    opacity: 0.6;
     transition: opacity 0.3s ease;
 }
 .grid-item img:hover {
-    opacity: 1;
+    opacity: 0.9;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+}
+.footer .language-menu{
+    margin-right: auto;
+}
+.footer a {
+    margin-left: 20px;
+    text-decoration: none; 
+    color: bisque; 
+}
+
+.footer a:hover {
+    color: darkgray;
+}
+.language-menu {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.language-menu label {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline; 
+}
+.language-menu label:hover {
+    color: darkblue;
+}
+
+select#select-language option:checked {
+    font-weight: bold;
 }
 
 body, html {
