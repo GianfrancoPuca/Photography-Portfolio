@@ -3,18 +3,20 @@
 .grid-container {
     display: grid;
     grid-gap: 10vw;
-    background-color: whitesmoke;
     padding: 10vw;
     margin: 0;
 }
 .grid-item {
-    background-color: whitesmoke;
     border: thin;
     border-radius: 5vw;
     padding: 20px;
     font-size: 30px;
     text-align: center;
     
+    
+}
+.grid-item p {
+    color: #c0c0c0;
 }
 .grid-item img {
     max-width: 80%;
@@ -22,12 +24,21 @@
     display: block;
     margin: 0 auto;
     padding: 0;
+    border: 5% thin;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
 }
+.grid-item img:hover {
+    opacity: 1;
+}
+
 body, html {
     padding: 0;
     margin: 0;
     font-family: 'Frank Ruhl Libre', sans-serif;
+}
+.background-container{
     background-image: url('../imgs/background.jpg');
-    background-size: cover;
+    background-size:auto;
     background-position: center;
 }
