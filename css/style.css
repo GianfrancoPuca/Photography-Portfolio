@@ -1,4 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&display=swap');
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    opacity: 0.6;
+}
+
+nav a {
+    color: bisque; 
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: darkgray;
+}
     
 .grid-container {
     display: grid;
@@ -11,9 +28,7 @@
     border-radius: 5vw;
     padding: 20px;
     font-size: 30px;
-    text-align: center;
-    
-    
+    text-align: center;   
 }
 .grid-item p {
     color: #c0c0c0;
